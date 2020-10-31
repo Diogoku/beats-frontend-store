@@ -1,0 +1,9 @@
+/* ERROR MESSAGE */
+
+.errorMesage {
+  color: #9a0000;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 5px;
+}

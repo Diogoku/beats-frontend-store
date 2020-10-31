@@ -1,0 +1,100 @@
+/* PRODUCT CARD */
+
+.productCard {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  box-shadow: 0 1px 1px 0 rgb(0, 0, 0, 0.4);
+}
+
+.productCard__image {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: contain;
+}
+
+.productCard__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.productCard__name {
+  color: var(--primaryColor);
+  font-size: 26px;
+  letter-spacing: 0.3px;
+}
+
+.productCard__description {
+  list-style-type: none;
+}
+
+.productCard__description li {
+  margin-bottom: 4px;
+  color: rgb(94, 94, 94);
+}
+
+.productCard__removeQuantity {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.productCard__removeQuantity .MuiFormControl-root {
+  flex: 1;
+}
+
+.productCard__magnifierContainer {
+  display: flex;
+}
+
+.productCard__magnifierZoom {
+  height: 250px;
+  width: 20vw;
+  max-width: 250px;
+  margin-left: 22px;
+}
+
+.productCard .MuiButton-root {
+  background-color: var(--primaryColor);
+  transition: all 0.3s ease-in;
+}
+
+.productCard .MuiButton-root:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.productCard .MuiButton-root:focus {
+  background-color: #ffffff;
+}
+
+.productCard .MuiButton-root:hover .MuiButton-label {
+  color: var(--primaryColor);
+}
+
+.productCard .MuiButton-root:focus .MuiButton-label {
+  color: var(--primaryColor);
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 800px) {
+  .productCard {
+    flex-direction: column;
+  }
+
+  .productCard__magnifierZoom {
+    display: none;
+  }
+
+  .productCard__image {
+    max-width: 400px;
+    object-fit: cover;
+  }
+
+  .productCard__details {
+    row-gap: 18px;
+  }
+}

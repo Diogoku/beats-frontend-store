@@ -1,0 +1,80 @@
+/* HEADER APP BAR */
+
+.header .MuiAppBar-root {
+  background-color: black;
+}
+
+/* HEADER TOOLBAR */
+
+.header .MuiToolbar-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* HEADER RIGHT SIDE */
+
+.header__rightSide {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  color: #ffffff;
+}
+
+/* HEADER SEARCH */
+
+.header__search {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.4;
+  color: black;
+  padding: 0 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+
+.header__search:hover {
+  opacity: 0.8;
+  transform: scaleX(1.05);
+}
+
+/* HEADER USER OPTIONS */
+
+.header__userOptions {
+  list-style: none;
+  display: flex;
+  column-gap: 25px;
+}
+
+.header__rightSide .MuiButton-label {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.header__rightSide .MuiSvgIcon-root > path {
+  color: #ffffff;
+}
+
+/* HEADER BASKET PRODUCTS BADGE */
+
+.header .MuiBadge-anchorOriginTopRightRectangle {
+  background-color: #b71628;
+}
+
+/* HEADER USER NAME */
+
+.header .header__username {
+  color: white;
+}
+
+/* HEADER DRAWER */
+
+.headerDrawer {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}

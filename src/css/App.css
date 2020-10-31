@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+:root {
+  --primaryColor: #161616;
+  font-size: 16px;
+}
+
+/* BACKGROUND COLORS */
+
+.black {
+  background-color: #2b2b2b;
+}
+
+.yellow {
+  background-color: #f3fb97;
+}
+
+.blue {
+  background-color: #adddf3;
+}
+
+.blueblue {
+  background-color: #33477b;
+}
+
+.darkblue {
+  background-color: #374754;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.grey {
+  background-color: #f1f1f1;
+}
+
+.redBlack {
+  background: linear-gradient(135deg, #b71628 50%, var(--primaryColor) 50%);
+}
+
+.burgundy {
+  background-color: #911827;
+}
+
+.lessRed {
+  background-color: #d7432f;
+}
+
+/* LINKS */
+
+.navLink {
+  color: #bdbdbd;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+}
+
+.navLink:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.navLink:focus {
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  outline: none;
+}
+
+.activeRoute {
+  border-bottom: 1px solid #ffffff;
+}
+
+/* MENU LINKS */
+
+.navLink__menu {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--primaryColor);
+  transition: color 0.3s ease-in;
+}
+
+.navLink__menu:hover {
+  color: var(--primaryColor);
+  border-bottom: 1px solid var(--primaryColor);
+}
+
+.navLink__menu:focus {
+  border-bottom: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
+  outline: none;
+}
+
+.activeRoute__menu {
+  border-bottom: 1px solid var(--primaryColr);
+}

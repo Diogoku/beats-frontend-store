@@ -1,0 +1,59 @@
+/* PAYMENT FAIL PAGE */
+
+.paymentFailPage {
+  text-align: center;
+  margin-top: 100px;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.paymentFailPage .MuiSvgIcon-root {
+  font-size: 80px;
+}
+
+.paymentFailPage .MuiSvgIcon-root path {
+  color: rgb(206, 2, 2);
+}
+
+.paymentFailPage .MuiSvgIcon-root circle {
+  color: rgb(206, 2, 2);
+}
+
+.paymentFailPage .MuiButton-root.paymentFailPage__pageOption {
+  background-color: var(--primaryColor);
+  transition: all 0.3s ease-in;
+}
+
+.paymentFailPage .MuiButton-root.paymentFailPage__pageOption:hover {
+  background-color: #ffffff;
+}
+
+.paymentFailPage .MuiButton-root.paymentFailPage__pageOption:focus {
+  background-color: #ffffff;
+}
+
+.paymentFailPage .MuiButton-label {
+  color: #ffffff;
+  transition: all 0.3s ease-in;
+}
+
+.paymentFailPage
+  .MuiButton-root.paymentFailPage__pageOption:hover
+  .MuiButton-label {
+  color: var(--primaryColor);
+}
+
+.paymentFailPage
+  .MuiButton-root.paymentFailPage__pageOption:focus
+  .MuiButton-label {
+  color: var(--primaryColor);
+}
+
+.paymentFailPage__pageOptions {
+  display: flex;
+  gap: 20px;
+}

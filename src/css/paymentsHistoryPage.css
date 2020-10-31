@@ -1,0 +1,96 @@
+/* PAYMENTS HISTORY PAGE */
+
+.purhchaseHistoryPage {
+  width: 100%;
+  margin-top: 70px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.purhchaseHistoryPage__title {
+  color: var(--primaryColor);
+}
+
+.purhchaseHistoryPage__tableWrapper {
+  width: 90%;
+  overflow-x: auto;
+}
+
+.purhchaseHistoryPage__table {
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.purhchaseHistoryPage__table th {
+  border: 1px solid rgb(196, 196, 196);
+  font-weight: 200;
+  padding: 5px 10px;
+}
+
+.purhchaseHistoryPage__table th td {
+  border: 1px solid rgb(196, 196, 196);
+  font-weight: 200;
+  padding: 5px 10px;
+}
+
+.purhchaseHistoryPage__table td {
+  border: 1px solid rgb(196, 196, 196);
+  font-weight: 200;
+  padding: 5px 10px;
+}
+
+.purhchaseHistoryPage__table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.purhchaseHistoryPage__table tbody tr:hover,
+.purhchaseHistoryPage__table tbody tr:nth-child(even):hover {
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+
+.purhchaseHistoryPage__tableNavigation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.purhchaseHistoryPage__tableNavigation .MuiButton-root {
+  background-color: var(--primaryColor);
+  transition: all 0.3s ease-in;
+}
+
+.purhchaseHistoryPage__tableNavigation .MuiButton-root:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.purhchaseHistoryPage__tableNavigation .MuiButton-label {
+  color: white;
+  font-weight: 200;
+}
+
+.purhchaseHistoryPage__tableNavigation .MuiButton-root:hover .MuiButton-label {
+  color: var(--primaryColor);
+}
+
+.purhchaseHistoryPage__tableNavigationOptions {
+  padding: 0 10px;
+  display: flex;
+  column-gap: 2px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 700px) {
+  .purhchaseHistoryPage__tableNavigation {
+    flex-direction: column;
+  }
+}

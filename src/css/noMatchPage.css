@@ -1,0 +1,21 @@
+/* NO MATCH PAGE */
+
+.noMatchPage {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+  text-align: center;
+}
+
+/* HTTP ERROR CODE */
+
+.noMatchPage__HTTPErrorCode {
+  font-size: calc(3.34821vw + 41.7144px);
+}
+
+.noMatchPage__LinkHomePage {
+  color: rgb(255, 32, 32);
+}

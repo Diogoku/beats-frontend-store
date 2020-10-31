@@ -1,0 +1,9 @@
+/* PAGES LAYOUT */
+
+.pagesLayout {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1500px;
+  overflow-x: hidden;
+}

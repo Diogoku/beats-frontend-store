@@ -1,0 +1,50 @@
+/* PAYMENT SUCCESSFUL PAGE */
+
+.paymentSuccessfulPage {
+  text-align: center;
+  margin-top: 100px;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.paymentSuccessfulPage .MuiSvgIcon-root {
+  font-size: 80px;
+}
+
+.paymentSuccessfulPage .MuiSvgIcon-root path {
+  color: rgb(9, 206, 2);
+}
+
+.paymentSuccessfulPage .MuiButton-root.paymentSuccessfulPage__pageOption {
+  background-color: var(--primaryColor);
+  transition: all 0.3s ease-in;
+}
+
+.paymentSuccessfulPage .MuiButton-root.paymentSuccessfulPage__pageOption:hover {
+  background-color: #ffffff;
+}
+
+.paymentSuccessfulPage .MuiButton-root.paymentSuccessfulPage__pageOption:focus {
+  background-color: #ffffff;
+}
+
+.paymentSuccessfulPage .MuiButton-label {
+  color: #ffffff;
+  transition: all 0.3s ease-in;
+}
+
+.paymentSuccessfulPage
+  .MuiButton-root.paymentSuccessfulPage__pageOption:hover
+  .MuiButton-label {
+  color: var(--primaryColor);
+}
+
+.paymentSuccessfulPage
+  .MuiButton-root.paymentSuccessfulPage__pageOption:focus
+  .MuiButton-label {
+  color: var(--primaryColor);
+}

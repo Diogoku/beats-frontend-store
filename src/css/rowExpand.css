@@ -1,0 +1,6 @@
+/* ROW EXPAND */
+
+.rowExpand__table {
+  border-collapse: collapse;
+  margin: 10px auto;
+}

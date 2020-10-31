@@ -1,0 +1,67 @@
+/* USER FORMS */
+
+.Page {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+/* CARD */
+
+.Page .MuiCard-root {
+  width: 70%;
+  height: fit-content;
+  margin: 100px 0 50px;
+  display: flex;
+}
+
+.form__image {
+  max-width: 280px;
+  object-fit: cover;
+}
+
+/* FORM SUBMIT BUTTON */
+.form .MuiButton-containedPrimary {
+  background-color: #7b0403;
+}
+
+.form .MuiButton-containedPrimary:hover {
+  background-color: var(--primaryColor);
+}
+
+/* FORM SUBMIT BUTTON LABEL */
+
+.form .MuiButton-label {
+  color: white;
+  letter-spacing: 1px;
+}
+
+/* SIGN UP FORM */
+
+.form__title {
+  margin: 20px 0;
+  color: var(--primaryColor);
+  font-size: calc(3.34821vw + 20.7144px);
+  line-height: calc(3vw + 35.7144px);
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Page .MuiCardContent-root {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 800px) {
+  .form__image {
+    display: none;
+  }
+}
