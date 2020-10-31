@@ -1,0 +1,29 @@
+{
+  "files": {
+    "static/css/0.9879d526.chunk.css": "/beats-frontend-store/static/css/0.9879d526.chunk.css",
+    "static/js/0.e537abff.chunk.js": "/beats-frontend-store/static/js/0.e537abff.chunk.js",
+    "static/js/0.e537abff.chunk.js.map": "/beats-frontend-store/static/js/0.e537abff.chunk.js.map",
+    "main.css": "/beats-frontend-store/static/css/main.c3ca22e4.chunk.css",
+    "main.js": "/beats-frontend-store/static/js/main.840afd5e.chunk.js",
+    "main.js.map": "/beats-frontend-store/static/js/main.840afd5e.chunk.js.map",
+    "runtime-main.js": "/beats-frontend-store/static/js/runtime-main.30147fa2.js",
+    "runtime-main.js.map": "/beats-frontend-store/static/js/runtime-main.30147fa2.js.map",
+    "static/css/3.4707e12a.chunk.css": "/beats-frontend-store/static/css/3.4707e12a.chunk.css",
+    "static/js/3.48d562a7.chunk.js": "/beats-frontend-store/static/js/3.48d562a7.chunk.js",
+    "static/js/3.48d562a7.chunk.js.map": "/beats-frontend-store/static/js/3.48d562a7.chunk.js.map",
+    "index.html": "/beats-frontend-store/index.html",
+    "precache-manifest.2fc20ce7b70cf7cc6d8fe5360bb7c89b.js": "/beats-frontend-store/precache-manifest.2fc20ce7b70cf7cc6d8fe5360bb7c89b.js",
+    "service-worker.js": "/beats-frontend-store/service-worker.js",
+    "static/css/0.9879d526.chunk.css.map": "/beats-frontend-store/static/css/0.9879d526.chunk.css.map",
+    "static/css/3.4707e12a.chunk.css.map": "/beats-frontend-store/static/css/3.4707e12a.chunk.css.map",
+    "static/css/main.c3ca22e4.chunk.css.map": "/beats-frontend-store/static/css/main.c3ca22e4.chunk.css.map",
+    "static/js/3.48d562a7.chunk.js.LICENSE.txt": "/beats-frontend-store/static/js/3.48d562a7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30147fa2.js",
+    "static/css/3.4707e12a.chunk.css",
+    "static/js/3.48d562a7.chunk.js",
+    "static/css/main.c3ca22e4.chunk.css",
+    "static/js/main.840afd5e.chunk.js"
+  ]
+}
