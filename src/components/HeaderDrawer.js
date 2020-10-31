@@ -87,9 +87,10 @@ function HeaderDrawer() {
       <NavLink activeClassName="activeRoute__menu" to="/basket">
         <Badge
           color="secondary"
-          badgeContent={user.basketProducts.reduce(function (prev, product) {
-            return prev + product.quantity;
-          }, 0)}
+          badgeContent={user.basketProducts.reduce(
+            (prev, product) => (prev += product.quantity),
+            0
+          )}
           max={99}
           showZero
         >
