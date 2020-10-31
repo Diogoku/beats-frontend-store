@@ -1,7 +1,7 @@
 import React from "react";
 
 // REACT-ROUTER
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 // COMPONENTS
 import Header from "./components/Header";
@@ -51,7 +51,7 @@ function App() {
       color="white"
       dense
     >
-      <Router>
+      <HashRouter basename="/">
         <ScrollToTop />
         <div className="App">
           <Header />
@@ -87,7 +87,7 @@ function App() {
             </AnimatePresence>
           </PagesLayout>
         </div>
-      </Router>
+      </HashRouter>
     </SnackbarProvider>
   );
 }
