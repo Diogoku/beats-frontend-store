@@ -165,7 +165,11 @@ function HomePage() {
   useEffect(() => {
     const fetchCategoriesData = async () => {
       axios
-        .get(`/categories/`)
+        .get(`/categories/`, {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
         .then(({ data }) => {
           setCategories(data.categories);
         })
