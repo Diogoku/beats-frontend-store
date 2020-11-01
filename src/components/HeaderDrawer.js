@@ -83,20 +83,29 @@ function HeaderDrawer() {
 
   return (
     <div className="headerDrawer">
-      {user ? <span className="header__username">{user.name}</span> : null}
-      <NavLink activeClassName="activeRoute__menu" to="/basket">
-        <Badge
-          color="secondary"
-          badgeContent={user.basketProducts.reduce(
-            (prev, product) => (prev += product.quantity),
-            0
-          )}
-          max={99}
-          showZero
-        >
-          <ShoppingBasketIcon />
-        </Badge>
-      </NavLink>
+      {!token || !user ? (
+        <Fragment>
+          <span className="header__username">{user.name}</span>
+          <NavLink activeClassName="activeRoute__menu" to="/basket">
+            <Badge
+              color="secondary"
+              badgeContent={
+                user
+                  ? user.basketProducts.reduce(
+                      (prev, product) => (prev += product.quantity),
+                      0
+                    )
+                  : 0
+              }
+              max={99}
+              showZero
+            >
+              <ShoppingBasketIcon />
+            </Badge>
+          </NavLink>
+        </Fragment>
+      ) : null}
+
       <Button onClick={toggleDrawer()}>
         <MenuIcon />
       </Button>
