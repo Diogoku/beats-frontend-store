@@ -46,7 +46,7 @@ function PaymentSuccessfulPage() {
         dispatch(setUser(data));
         localStorage.setItem("user", JSON.stringify(data));
       });
-  }, [dispatch, headerConfig, user._id]);
+  }, []);
 
   return (
     <motion.div
