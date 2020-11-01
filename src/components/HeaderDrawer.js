@@ -83,7 +83,7 @@ function HeaderDrawer() {
 
   return (
     <div className="headerDrawer">
-      {!token || !user ? (
+      {token && user ? (
         <Fragment>
           <span className="header__username">{user.name}</span>
           <NavLink activeClassName="activeRoute__menu" to="/basket">
