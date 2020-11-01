@@ -83,7 +83,7 @@ function HeaderDrawer() {
 
   return (
     <div className="headerDrawer">
-      <span className="header__username">{user.name}</span>
+      {user ? <span className="header__username">{user.name}</span> : null}
       <NavLink activeClassName="activeRoute__menu" to="/basket">
         <Badge
           color="secondary"
