@@ -56,7 +56,7 @@ function ProductCard({ productId, quantity }) {
         .catch((err) => console.log(err));
     };
     fetchProductData(productData);
-  }, [productData, productId]);
+  }, [productId]);
 
   const removeQuantityFromBasket = (productName) => {
     axios
