@@ -72,6 +72,8 @@ function BasketPage() {
       headerConfig
     );
 
+    console.log(response, "fdx");
+
     const { data } = await response;
     // When the customer clicks on the button, redirect them to Checkout.
     const result = await stripe.redirectToCheckout({
